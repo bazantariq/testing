@@ -17,7 +17,6 @@ public class FirstActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
-        Log.d(TAG,"OnCreate is called.");
         b1=findViewById(R.id.button);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
